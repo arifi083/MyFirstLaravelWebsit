@@ -13,3 +13,5 @@ Route::get('/portfolia','SiteController@showPortfolia');
 
 
 Route::get('/homepage','HomeController@Home');
+
+Route::get('/homeaddress','HomeController@HomeAddress');

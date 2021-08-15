@@ -9,4 +9,9 @@ class HomeController extends Controller
     function Home(){
         return view('homepage');
     }
+
+
+    function HomeAddress(){
+        return view('homepage');
+    }
 }
